@@ -1,4 +1,6 @@
 <?php
+
+
 require('loginSession.php');
 if (isset($_POST['btn-login'])) {
  
@@ -14,8 +16,8 @@ if (isset($_POST['btn-login'])) {
  $count = $query->num_rows; // if email/password are correct returns must be 1 row
  
  if (password_verify($password, $row['password']) && $count==1) {
-  $_SESSION['userSession'] = $row['user_id'];
-  header("Location: home.php");
+  $_SESSION['userSession'] = $row['pub_id'];
+  header("Location: dashboard.php");
  } else {
   $msg = "<div class='alert alert-danger'>
      <span class='glyphicon glyphicon-info-sign'></span> &nbsp; Invalid Username or Password !
