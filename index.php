@@ -5,6 +5,22 @@ include('loginSession.php');
 
 
 ?>
+ <script>
+    function check_pass(){
+        var password = document.getElementById("sign_up_password1").value;
+        var password2 = document.getElementById("sign_up_password2").value;
+        console.log("password: "+password);
+        console.log("password2: "+password2);
+    if (password == password2){
+ document.getElementById('submit').disabled = false;
+ console.log("matched");
+}
+else {
+ document.getElementById('submit').disabled = true;
+ console.log("not-matched");
+}
+    }
+    </script>
 
   <div class="container">
   <div class="jumbotron">
@@ -37,17 +53,17 @@ include('loginSession.php');
         <input type="email" class="form-control" placeholder="Email address" name="email" required />
         <span id="check-e"></span>
         </div>
-        
+
         <div class="form-group">
-        <input type="password" class="form-control" placeholder="Password" name="password" required />
+        <input id="sing_in_password" type="password" class="form-control" placeholder="Password" name="password" required />
         </div>
        
       <hr />
         
         <div class="form-group">
             <button type="submit" class="btn btn-default" name="btn-login" id="btn-login">
-      <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
-   </button> 
+              <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
+            </button> 
   
             <a href="register.php" class="btn btn-default">Sign Up Here</a>
             
@@ -90,11 +106,11 @@ include('loginSession.php');
         </div>
         
         <div class="form-group">
-        <input id="password" type="password" class="form-control" placeholder="Password" name="password" required  />
+        <input id="sign_up_password1" type="password" onchange='check_pass();' class="form-control" placeholder="Password" name="password" required  />
         </div>
         
         <div class="form-group">
-        <input id="password_confirm" type="password" class="form-control" placeholder="Confirm Password" name="confirm_password" required  />
+        <input id="sign_up_password2" type="password" onchange='check_pass();' class="form-control" placeholder="Confirm Password" name="password2" required  />
         </div>
         
         <div class="form-group">
@@ -109,9 +125,9 @@ include('loginSession.php');
       <hr />
         
         <div class="form-group">
-            <button type="submit" class="btn btn-default" name="btn-signup">
-      <span class="glyphicon glyphicon-log-in"></span> &nbsp; Create Account
-   </button> 
+            <button id="submit" type="submit" class="btn btn-default" name="btn-signup">
+                <span class="glyphicon glyphicon-log-in"></span> &nbsp; Create Account
+           </button> 
             <a href="index.php" class="btn btn-default">Log In Here</a>
         </div> 
         
@@ -127,4 +143,5 @@ include('loginSession.php');
   </div>
 
 </html>
+
 

@@ -53,20 +53,5 @@ if(isset($_POST['btn-signup'])) {
 
 
 ?>
-<script>
-function passwordMatch()
-{
-    var password1 = $("#password1").val();
-    var password2 = $("#password2").val();
-    if (password1 != password2)
-    {
-        alert("Passwords do not match");
-        return false;
-    }
-    else
-    {
-        $( "#reset" ).submit();
-    }
-}
-</script>
+
 
