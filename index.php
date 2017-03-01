@@ -9,7 +9,7 @@ include('loginSession.php');
   <div class="container">
   <div class="jumbotron">
     <h1>PubGo on Android</h1>      
-    <p>PubGo is an app which allows people to view information about pubs and bars in their area and see current promotions they are having</p>
+    <p>PubGo is an application which allows people to view information about pubs and bars in their area and see current promotions that they are having</p>
     <button type="button" class="btn btn-default">Download</button>
     
     
@@ -79,6 +79,7 @@ include('loginSession.php');
         <div class="form-group">
         <input type="text" class="form-control" placeholder="First Name" name="f_name" required  />
         </div>
+        
         <div class="form-group">
         <input type="text" class="form-control" placeholder="Last Name" name="l_name" required  />
         </div>
@@ -89,17 +90,19 @@ include('loginSession.php');
         </div>
         
         <div class="form-group">
-        <input type="password" class="form-control" placeholder="Password" name="password" required  />
+        <input id="password" type="password" class="form-control" placeholder="Password" name="password" required  />
         </div>
-                <div class="form-group">
+        
+        <div class="form-group">
+        <input id="password_confirm" type="password" class="form-control" placeholder="Confirm Password" name="confirm_password" required  />
+        </div>
+        
+        <div class="form-group">
         <input type="text" class="form-control" placeholder="Pub Name" name="pub_name" required  />
-        
-    
         </div>
-                        <div class="form-group">
-        <input type="text" class="form-control" placeholder="Pub owner Name" name="pub_owner" required  />
         
-    
+        <div class="form-group">
+        <input type="text" class="form-control" placeholder="Pub owner Name" name="pub_owner" required  />
         </div>
 
 

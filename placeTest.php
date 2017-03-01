@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 include_once 'dbconnect.php';
 if (!isset($_SESSION['userSession'])) {
@@ -9,7 +8,6 @@ if (!isset($_SESSION['userSession'])) {
 $query = $DBcon->query("SELECT * FROM pubUsers WHERE pub_id=".$_SESSION['userSession']);
 $userRow=$query->fetch_array();
 $DBcon->close();
-
     $servername = "localhost";
     $username = "root";
     $password = "";

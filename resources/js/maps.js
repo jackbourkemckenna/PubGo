@@ -52,28 +52,17 @@ function initMap() {
 		});
 		marker.setVisible(true);
 
-		infowindow.setContent('<div><strong>' + place.name + '</strong><br>' +
-			'Place ID: ' + place.place_id + '<br>' +
+		infowindow.setContent('<div ><strong>' + place.name + '</strong><br>' +
+			'Place ID hello: ' + place.place_id + '<br>'  +
+                         "<tr><td><form method='get'action='test.php'><input type='text' name='place' value=''><input type='submit'></form></form></td></tr>"
+			+
 			place.formatted_address);
 		infowindow.open(map, marker);
-
-		var service = new google.maps.places.PlacesService(map);
 		
-		var details_container = document.getElementById('details');
-		
-		service.getDetails({
-			placeId: place.place_id
-		}, function(place, status) {
-			details_container.innerHTML = '<p><strong>Status:</strong> <code>' + status + '</code></p>' +
-				'<p><strong>Place ID:</strong> <code>' + place.place_id + '</code></p>' +
-				'<p><strong>Location:</strong> <code>' + place.geometry.location.lat() + ', ' + place.geometry.location.lng() + '</code></p>' +
-
-				'<p><strong>Formatted address:</strong> <code>' + place.formatted_address + '</code></p>' +
-				'<p><strong>GMap Url:</strong> <code>' + place.url + '</code></p>' +
-				'<p><strong>Place details:</strong></p>' +
-				'<pre>' + JSON.stringify(place, null, " ") + '</pre>';
-
-		});
 
 	}); // end autocomplete addListener
+
+
+  
+	
 }
