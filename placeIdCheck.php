@@ -15,11 +15,11 @@ $DBcon->close();
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-    $sql = "SELECT * FROM `pubUsers` WHERE pub_id =".$_SESSION['userSession'];
+    $sql = "SELECT place_id FROM `pubUsers` WHERE pub_id =".$_SESSION['userSession'];
     $result = $conn->query($sql);
     $id=$result->fetch_array();
-    
-    if ($id['place_id'] == false) {
+     
+    if(empty($id['place_id'])){
     
         include('map.php');
         
@@ -31,9 +31,7 @@ $DBcon->close();
         
     
     else {
-     echo "success";
-     echo $id['pub_id'];
-     include('test.php');
+    echo 'This is just a test';
     }
     
 
@@ -43,8 +41,7 @@ $DBcon->close();
     $conn->close();
     
 ?>
-<li><a href="#"><strong> <?php echo $userRow['email']; ?></strong></a></li>
- <li><a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Logout</a></li>
+
  
 
  

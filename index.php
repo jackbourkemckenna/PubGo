@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+    <head>
 <?php
 include('header.php');
 include('loginSession.php');
@@ -7,7 +10,7 @@ include('loginSession.php');
 ?>
  <script>
     function check_pass(){
-        //document.getElementById('password_match_error').style.visibility = 'hidden'; -- to get the error box to dissapear at the start using onload features which were removed below 
+        //document.getElementById('password_match_error').style.display = 'unset'; -- to get the error box to dissapear at the start using onload features which were removed below 
         var password = document.getElementById("sign_up_password1").value;
         var password2 = document.getElementById("sign_up_password2").value;
         console.log("password: "+password);
@@ -31,6 +34,10 @@ include('loginSession.php');
     
 }
     </script>
+    
+    </head>
+    
+    <body onload="check_pass()">
 
   <div class="container">
   <div class="jumbotron">
@@ -117,11 +124,11 @@ include('loginSession.php');
         </div>
         
         <div class="form-group">
-        <input id="sign_up_password1" type="password" onchange='check_pass();' class="form-control" placeholder="Password" name="password" required  />
+        <input id="sign_up_password1" type="password" onchange="check_pass()" class="form-control" placeholder="Password" name="password" minlength="6" required  />
         </div>
         
         <div class="form-group">
-        <input id="sign_up_password2" type="password" onchange='check_pass();' class="form-control" placeholder="Confirm Password" name="password2" required  />
+        <input id="sign_up_password2" type="password" onchange="check_pass()" class="form-control" placeholder="Confirm Password" name="password2" minlength="6" required  />
         </div>
         
         <div class="form-group">
@@ -137,7 +144,7 @@ include('loginSession.php');
         <div id="password_match_error">
             <!--<p>Your passwords do not match</p>-->
             <div class='alert alert-danger'>
-              <span class='glyphicon glyphicon-info-sign'></span> &nbsp; error while registering !
+              <span class='glyphicon glyphicon-info-sign'></span> &nbsp; <strong>Passwords</strong> do not match
              </div>
         </div>
         <div class="form-group">
@@ -157,6 +164,8 @@ include('loginSession.php');
   </div>
   </div>
   </div>
+  
+  </body>
 
 </html>
 
