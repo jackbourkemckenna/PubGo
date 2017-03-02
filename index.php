@@ -7,19 +7,29 @@ include('loginSession.php');
 ?>
  <script>
     function check_pass(){
+        //document.getElementById('password_match_error').style.visibility = 'hidden'; -- to get the error box to dissapear at the start using onload features which were removed below 
         var password = document.getElementById("sign_up_password1").value;
         var password2 = document.getElementById("sign_up_password2").value;
         console.log("password: "+password);
         console.log("password2: "+password2);
+        
     if (password == password2){
- document.getElementById('submit').disabled = false;
- console.log("matched");
+   
+        //var msg = "<div class='alert alert-success'><span class='glyphicon glyphicon-info-sign'></span> &nbsp; successfully registered !</div>";
+        document.getElementById('submit').disabled = false;
+        //console.log("matched");
+        document.getElementById('password_match_error').style.visibility = 'hidden';
+ 
 }
-else {
- document.getElementById('submit').disabled = true;
- console.log("not-matched");
-}
+    else {
+    
+        //var msg = "<div class='alert alert-danger'><span class='glyphicon glyphicon-info-sign'></span> &nbsp; error while registering !</div>"
+        document.getElementById('submit').disabled = true;
+        document.getElementById('password_match_error').style.visibility = 'visible';
+        //console.log("not-matched");
     }
+    
+}
     </script>
 
   <div class="container">
@@ -85,11 +95,12 @@ else {
       
   
         
-        <?php
+<?php
   if (isset($msg)) {
    echo $msg;
   }
-  ?>
+?>
+
   <h>
           
         <div class="form-group">
@@ -123,7 +134,12 @@ else {
 
 
       <hr />
-        
+        <div id="password_match_error">
+            <!--<p>Your passwords do not match</p>-->
+            <div class='alert alert-danger'>
+              <span class='glyphicon glyphicon-info-sign'></span> &nbsp; error while registering !
+             </div>
+        </div>
         <div class="form-group">
             <button id="submit" type="submit" class="btn btn-default" name="btn-signup">
                 <span class="glyphicon glyphicon-log-in"></span> &nbsp; Create Account
