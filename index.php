@@ -8,6 +8,7 @@ include('loginSession.php');
  <script>
     function check_pass(){
         //document.getElementById('password_match_error').style.visibility = 'hidden'; -- to get the error box to dissapear at the start using onload features which were removed below 
+        document.getElementById('password_match_error').style.display = 'none';
         var password = document.getElementById("sign_up_password1").value;
         var password2 = document.getElementById("sign_up_password2").value;
         console.log("password: "+password);
@@ -18,14 +19,14 @@ include('loginSession.php');
         //var msg = "<div class='alert alert-success'><span class='glyphicon glyphicon-info-sign'></span> &nbsp; successfully registered !</div>";
         document.getElementById('submit').disabled = false;
         //console.log("matched");
-        document.getElementById('password_match_error').style.visibility = 'hidden';
+        document.getElementById('password_match_error').style.display = 'none';
  
 }
     else {
     
         //var msg = "<div class='alert alert-danger'><span class='glyphicon glyphicon-info-sign'></span> &nbsp; error while registering !</div>"
         document.getElementById('submit').disabled = true;
-        document.getElementById('password_match_error').style.visibility = 'visible';
+        document.getElementById('password_match_error').style.display = 'unset';
         //console.log("not-matched");
     }
     
@@ -117,11 +118,11 @@ include('loginSession.php');
         </div>
         
         <div class="form-group">
-        <input id="sign_up_password1" type="password" onchange='check_pass();' class="form-control" placeholder="Password" name="password" required  />
+        <input id="sign_up_password1" type="password" onload='check_pass();' onchange='check_pass();' class="form-control" placeholder="Password" name="password" required  />
         </div>
         
         <div class="form-group">
-        <input id="sign_up_password2" type="password" onchange='check_pass();' class="form-control" placeholder="Confirm Password" name="password2" required  />
+        <input id="sign_up_password2" type="password" onload='check_pass();' onchange='check_pass();' class="form-control" placeholder="Confirm Password" name="password2" required  />
         </div>
         
         <div class="form-group">
