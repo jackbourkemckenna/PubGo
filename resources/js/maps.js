@@ -54,8 +54,8 @@ function initMap() {
 
 
 		infowindow.setContent('<div ><strong>' + place.name + '</strong><br>' +
-			'Place ID hello: ' + place.place_id + '<br>'  +
-                         "<tr><td><form id = 'myForm' method='get'action='placeIdCheckDb.php'><input id = 'hiddenField' type='hidden' name='place' value='@'><input type='submit'></form></form></td></tr>"
+			'Save your pub/restraunt Location: <br>'  +
+                         "<tr><td><form id = 'myForm' method='get'action='placeIdSubmitDb.php'><input id = 'hiddenField' type='hidden' name='place' value='@'><input type='submit'></form></form></td></tr>"
 			+
 			place.formatted_address);
 		infowindow.open(map, marker);

@@ -4,41 +4,27 @@ include_once 'dbconnect.php';
 if (!isset($_SESSION['userSession'])) {
  header("Location: index.php");
 }
-$query = $DBcon->query("SELECT * FROM pubUsers WHERE pub_id=".$_SESSION['userSession']);
-$userRow=$query->fetch_array();
-$DBcon->close();
- $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "pubgo";
-    $conn = new mysqli($servername, $username, $password, $dbname);
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
-    $sql = "SELECT place_id FROM `pubUsers` WHERE pub_id =".$_SESSION['userSession'];
-    $result = $conn->query($sql);
-    $id=$result->fetch_array();
+
+
+    $sql = $DBcon->query("SELECT * FROM `pubUsers` WHERE pub_id =".$_SESSION['userSession']);
+    
+    $userPlaceID=$sql->fetch_array();
      
-    if(empty($id['place_id'])){
-    
-        include('map.php');
-        
-       
-    
-         
-        }
-        
-        
-    
-    else {
-    echo 'This is just a test';
+    if ($userPlaceID['place_id'] == false) {
+    ?><h1>Search for your pub/rastraunt</h1>
+      <?php
+      include('map.php');
+    } else {
+     
+     echo $userPlaceID['place_id'];
+     echo '<br><h1>this will display users profile information!</h1>';
     }
     
+    
+    
 
 
-  
-   
-    $conn->close();
+
     
 ?>
 

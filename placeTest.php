@@ -25,7 +25,7 @@ $DBcon->close();
         echo "hello";
     } else {
      
-     echo $id['pub_id'];
+     echo $id['place_id'];
     }
     
     

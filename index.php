@@ -17,8 +17,6 @@ include('loginSession.php');
         console.log("password2: "+password2);
         
     if (password == password2){
-   
-        //var msg = "<div class='alert alert-success'><span class='glyphicon glyphicon-info-sign'></span> &nbsp; successfully registered !</div>";
         document.getElementById('submit').disabled = false;
         //console.log("matched");
         document.getElementById('password_match_error').style.display = 'none';
@@ -52,50 +50,49 @@ include('loginSession.php');
 
 <div class="row">
 
-     <h1>Sign in here</h1>
-   
-    <div class="col-md-4">
-      
-         <form class="form-signin" method="post" id="login-form">
-      
      
-        
-       <?php
-  if(isset($msg)){
-   echo $msg;
-  }
-  ?>
-        
-        <div class="form-group">
-        <input type="email" class="form-control" placeholder="Email address" name="email" required />
-        <span id="check-e"></span>
-        </div>
-
-        <div class="form-group">
-        <input id="sing_in_password" type="password" class="form-control" placeholder="Password" name="password" required />
-        </div>
-       
-      <hr />
-        
-        <div class="form-group">
-            <button type="submit" class="btn btn-default" name="btn-login" id="btn-login">
-              <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
-            </button> 
-  
-            <a href="register.php" class="btn btn-default">Sign Up Here</a>
-            
-        </div>  
-        
-        
-      
-      </form>
-
-      
-      
-      
-      
-    </div>
     
+        <div class="col-md-4">
+            <h1>Sign in here</h1>
+    <hr/>
+        
+      
+        <form class="form-signin" method="post" id="login-form">
+              
+             
+                
+               <?php
+          if(isset($msg)){
+           echo $msg;
+          }
+          ?>
+                
+                <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email address" name="email" required />
+                <span id="check-e"></span>
+                </div>
+        
+                <div class="form-group">
+                <input id="sign_in_password" type="password" class="form-control" placeholder="Password" name="password" required />
+                </div>
+               
+              <hr/>
+                
+                <div class="form-group">
+                    <button type="submit" class="btn btn-default" name="btn-login" id="btn-login">
+                      <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
+                    </button> 
+                </div>  
+                
+                
+              
+        </form>
+
+      
+      
+      
+      
+        </div>
 
 </div>
  <form class="form-signin" method="post" id="register-form">
@@ -108,8 +105,10 @@ include('loginSession.php');
   }
 ?>
 
-  <h>
+  <hr/>
           
+        <h1>Sign Up Here</h1>
+        <hr/>
         <div class="form-group">
         <input type="text" class="form-control" placeholder="First Name" name="f_name" required  />
         </div>
@@ -151,7 +150,6 @@ include('loginSession.php');
             <button id="submit" type="submit" class="btn btn-default" name="btn-signup">
                 <span class="glyphicon glyphicon-log-in"></span> &nbsp; Create Account
            </button> 
-            <a href="index.php" class="btn btn-default">Log In Here</a>
         </div> 
         
       

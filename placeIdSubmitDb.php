@@ -20,13 +20,13 @@ $servername = "localhost";
     
     
     if($sql){
-        echo 'test';
+       header("Location: https://pubgo-jackbourkemckenna.c9users.io/dashboard.php");
         
         
     }
     else{
         
-        echo 'nope';
+        echo 'error found while submiting to database';
         
     }
     

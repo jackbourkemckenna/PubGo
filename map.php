@@ -1,4 +1,11 @@
-        <link rel="stylesheet" href= "resources/css/style.css">
+<?php
+
+if (!isset($_SESSION['userSession'])) {
+ header("Location: index.php");
+}
+?>
+
+<link rel="stylesheet" href= "resources/css/style.css">
 <script type="text/javascript" src="resources/js/maps.js"></script>>
  <li><a href="#"><strong> <?php echo $userRow['email']; ?></strong></a></li>
   <li><a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Logout</a></li>
