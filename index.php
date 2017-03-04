@@ -61,11 +61,7 @@ include('loginSession.php');
               
              
                 
-               <?php
-          if(isset($msg)){
-           echo $msg;
-          }
-          ?>
+<!-- code was here-->
                 
                 <div class="form-group">
                 <input type="email" class="form-control" placeholder="Email address" name="email" required />
@@ -83,9 +79,11 @@ include('loginSession.php');
                       <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
                     </button> 
                 </div>  
-                
-                
-              
+                <?php
+                    if (isset($msg)) {
+                        echo $msg;
+                    }
+                ?>
         </form>
 
       
@@ -99,11 +97,7 @@ include('loginSession.php');
       
   
         
-<?php
-  if (isset($msg)) {
-   echo $msg;
-  }
-?>
+
 
   <hr/>
           
@@ -148,7 +142,7 @@ include('loginSession.php');
         </div>
         <div class="form-group">
             <button id="submit" type="submit" class="btn btn-default" name="btn-signup">
-                <span class="glyphicon glyphicon-log-in"></span> &nbsp; Create Account
+                <span class="glyphicon glyphicon-plus"></span><span class="glyphicon glyphicon-user"></span> &nbsp; Create Account
            </button> 
         </div> 
         
