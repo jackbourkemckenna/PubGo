@@ -34,7 +34,7 @@ $test = 'https://maps.googleapis.com/maps/api/place/details/json?placeid='.$user
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJCVErT4wOZ0gRTb822t6ZGw4&key=AIzaSyBnqeT9W-h2qeppvw7HSjbVbMWRvAHWEy4",
+  CURLOPT_URL => "https://maps.googleapis.com/maps/api/place/details/json?placeid=".$userPlaceID['place_id']."&key=AIzaSyBnqeT9W-h2qeppvw7HSjbVbMWRvAHWEy4",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
