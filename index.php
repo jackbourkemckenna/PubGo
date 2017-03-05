@@ -47,53 +47,7 @@ include('loginSession.php');
 
 
 </div>
-
-<div class="row">
-
-     
-    
-        <div class="col-md-4">
-            <h1>Sign in here</h1>
-    <hr/>
-        
-      
-        <form class="form-signin" method="post" id="login-form">
-              
-             
-                
-<!-- code was here-->
-                
-                <div class="form-group">
-                <input type="email" class="form-control" placeholder="Email address" name="email" required />
-                <span id="check-e"></span>
-                </div>
-        
-                <div class="form-group">
-                <input id="sign_in_password" type="password" class="form-control" placeholder="Password" name="password" required />
-                </div>
-               
-              <hr/>
-                
-                <div class="form-group">
-                    <button type="submit" class="btn btn-default" name="btn-login" id="btn-login">
-                      <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
-                    </button> 
-                </div>  
-                <?php
-                    if (isset($msg)) {
-                        echo $msg;
-                    }
-                ?>
-        </form>
-
-      
-      
-      
-      
-        </div>
-
-</div>
- <form class="form-signin" method="post" id="register-form">
+<form class="form-signin" method="post" id="register-form">
       
   
         

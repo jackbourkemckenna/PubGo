@@ -15,7 +15,7 @@ include('pubSignup.php');
 <title>Welcome to pubGo</title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href= "resources/css/style.css">
+<link rel="stylesheet" type="text/css" href= "resources/css/style.css">
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <!-- JQuery CDN Link-->
@@ -41,6 +41,35 @@ include('pubSignup.php');
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="about.php">About</a></li>
                     <li><a href="#contact">Help</a></li>
+                    <li>
+                        <form class="form-signin" method="post" id="login-form">
+                            
+                            <div class="form-group nav-sign-in">
+                                <input type="email" class="form-control" placeholder="Email address" name="email" required />
+                                <span id="check-e"></span>
+                            </div>
+                            </li>
+                            <li>
+                            <div class="form-group nav-sign-in">
+                                <input id="sign_in_password" type="password" class="form-control" placeholder="Password" name="password" required />
+                            </div>
+                            </li>
+                            
+                            <li>
+                            <div class="form-group nav-sign-in">
+                                <button type="submit" class="btn btn-default" name="btn-login" id="btn-login">
+                                    <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
+                                </button> 
+                            </div>
+                            
+                            <?php
+                                if (isset($msg)) {
+                                    echo $msg;
+                                }
+                            ?>
+                        </form>
+                        </li>
+                    
                 </ul>
             </div>
         </nav>

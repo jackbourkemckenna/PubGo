@@ -12,13 +12,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-1"></div>
+                <!-- About the Company Info -->
                 <div id="about_sec" class="col-md-4">
                     <h2 id="about_head">About Us</h2>
                     <hr>
-                    <p>Lorem ipsum dolor sit amet, vel sodales fringilla senectus, in quam sapien vestibulum pellentesque posuere ullamcorper, at eu, vel massa urna diam rutrum volutpat aenean. Vel a neque integer at, lectus integer ipsum amet, odio eleifend hac ante. Ac imperdiet. Vitae hac libero mattis sed hendrerit leo, adipiscing integer vitae, sit est ut. Sed lacus ultricies, eu morbi et enim nibh nibh nibh. Maecenas suscipit a egestas libero, suscipit eu arcu, dui risus erat quis ut autem, nesciunt nunc. Nibh sodales, neque urna consequat sodales dictumst ad phasellus, aliquam nec adipiscing vitae rutrum, sapien feugiat. Et ut nam sit, lacinia ut tincidunt sed dolor, felis ut vel blandit nam, odio orci. Lobortis maecenas in id, quam dui tortor a rhoncus, felis est morbi, vehicula ipsum. 
-                    </p>
+                    <p>Lorem ipsum dolor sit amet, vel sodales fringilla senectus, in quam sapien vestibulum pellentesque posuere ullamcorper, at eu, vel massa urna diam rutrum volutpat aenean. Vel a neque integer at, lectus integer ipsum amet, odio eleifend hac ante. Ac imperdiet. Vitae hac libero mattis sed hendrerit leo, adipiscing integer vitae, sit est ut. Sed lacus ultricies, eu morbi et enim nibh nibh nibh. Maecenas suscipit a egestas libero, suscipit eu arcu, dui risus erat quis ut autem, nesciunt nunc. Nibh sodales, neque urna consequat sodales dictumst ad phasellus, aliquam nec adipiscing vitae rutrum, sapien feugiat. Et ut nam sit, lacinia ut tincidunt sed dolor, felis ut vel blandit nam, odio orci. Lobortis maecenas in id, quam dui tortor a rhoncus, felis est morbi, vehicula ipsum.</p>
                 </div>
                 <div class="col-md-2"></div>
+                <!-- Contact Form -->
                 <div id="contact_form_sec" class="col-md-4">
                     <h2>Contact Us</h2>
                     <hr/>
