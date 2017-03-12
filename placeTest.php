@@ -32,5 +32,5 @@ $DBcon->close();
     
     $conn->close();
 ?>
-<li><a href="#"><strong> <?php echo $userRow['email']; ?></strong></a></li>
+<!--<li><a href="#"><strong> <?php echo $userRow['email']; ?></strong></a></li>-->
  <li><a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Logout</a></li>

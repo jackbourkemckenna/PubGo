@@ -61,12 +61,6 @@ include('pubSignup.php');
                                     <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
                                 </button> 
                             </div>
-                            
-                            <?php
-                                if (isset($msg)) {
-                                    echo $msg;
-                                }
-                            ?>
                         </form>
                         </li>
                     

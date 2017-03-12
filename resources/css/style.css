@@ -54,3 +54,20 @@ body {
 	padding-top:7px;
 	padding-right:7px;
 }
+
+.row {
+  margin: 20px 0;
+}
+
+.gallery-img {
+  padding: 0;
+}
+
+.gallery-img::after {
+  box-shadow: inset 5px 5px 0px 0 #fff, inset -5px -5px 0px 0 #fff, inset 7px 7px 2px 0 #333, inset -7px -7px 2px 0 #333;
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

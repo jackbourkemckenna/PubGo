@@ -21,7 +21,7 @@ $servername = "localhost";
 //update users set username='JACK' and password='123' WHERE id='1';
 
 ?>
-<li><a href="#"><strong> <?php echo $userRow['email']; ?></strong></a></li>
+<!--<li><a href="#"><strong> <?php echo $userRow['email']; ?></strong></a></li>-->
 
 <li><a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Logout</a></li>
 <div id = "result"></div>

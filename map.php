@@ -6,9 +6,7 @@ if (!isset($_SESSION['userSession'])) {
 ?>
 
 <link rel="stylesheet" href= "resources/css/style.css">
-<script type="text/javascript" src="resources/js/maps.js"></script>>
- <li><a href="#"><strong> <?php echo $userRow['email']; ?></strong></a></li>
-  <li><a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Logout</a></li>
+<script type="text/javascript" src="resources/js/maps.js"></script>
   
   <input id="pac-input" class="controls" type="text" placeholder="Enter a location">
 <div id="map"></div>
@@ -19,11 +17,4 @@ if (!isset($_SESSION['userSession'])) {
  
 </script>
 
-
-  
-    
-    
-   
-   
-   
-   
+z

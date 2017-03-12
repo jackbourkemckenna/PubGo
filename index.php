@@ -54,7 +54,12 @@ include('loginSession.php');
 
 
   <hr/>
-          
+        <?php
+            if (isset($msg)) {
+                echo $msg;
+                
+            }
+        ?>
         <h1>Sign Up Here</h1>
         <hr/>
         <div class="form-group">
@@ -98,7 +103,7 @@ include('loginSession.php');
             <button id="submit" type="submit" class="btn btn-default" name="btn-signup">
                 <span class="glyphicon glyphicon-plus"></span><span class="glyphicon glyphicon-user"></span> &nbsp; Create Account
            </button> 
-        </div> 
+        </div>
         
       
       </form>

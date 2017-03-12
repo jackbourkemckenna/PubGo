@@ -9,7 +9,10 @@ if (!isset($_SESSION['userSession'])) {
 
      
     if ($userPlaceID['place_id'] == false) {
-    ?><h1>Search for your pub/rastraunt</h1>
+    ?><h1>Search for your pub/restaurant</h1>
+      
+      
+      
       <?php
       include('map.php');
     } else {
