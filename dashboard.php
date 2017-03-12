@@ -217,10 +217,7 @@ if ($err) {
   
 </div>
 </div>
-<?php 
-  
 
-?>
 <h1>Enter a discount code for users to use in your pub</h1>
 <form class="form-discount" method="post" id="discount-form">
  <div class="form-group">
