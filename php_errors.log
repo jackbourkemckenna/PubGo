@@ -1,0 +1,118 @@
+[14-Mar-2017 14:22:22 UTC] PHP Warning:  include(dbconnect): failed to open stream: No such file or directory in /home/ubuntu/workspace/app/login.php on line 2
+[14-Mar-2017 14:22:22 UTC] PHP Stack trace:
+[14-Mar-2017 14:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:22:22 UTC] PHP Warning:  include(): Failed opening 'dbconnect' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/app/login.php on line 2
+[14-Mar-2017 14:22:22 UTC] PHP Stack trace:
+[14-Mar-2017 14:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:22:22 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/app/login.php on line 7
+[14-Mar-2017 14:22:22 UTC] PHP Stack trace:
+[14-Mar-2017 14:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:22:22 UTC] PHP   2. mysqli_prepare() /home/ubuntu/workspace/app/login.php:7
+[14-Mar-2017 14:22:22 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/app/login.php on line 8
+[14-Mar-2017 14:22:22 UTC] PHP Stack trace:
+[14-Mar-2017 14:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:22:22 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/login.php:8
+[14-Mar-2017 14:22:22 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/app/login.php on line 9
+[14-Mar-2017 14:22:22 UTC] PHP Stack trace:
+[14-Mar-2017 14:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:22:22 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/login.php:9
+[14-Mar-2017 14:22:22 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/app/login.php on line 11
+[14-Mar-2017 14:22:22 UTC] PHP Stack trace:
+[14-Mar-2017 14:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:22:22 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/app/login.php:11
+[14-Mar-2017 14:22:22 UTC] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/app/login.php on line 12
+[14-Mar-2017 14:22:22 UTC] PHP Stack trace:
+[14-Mar-2017 14:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:22:22 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/app/login.php:12
+[14-Mar-2017 14:22:22 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/app/login.php on line 17
+[14-Mar-2017 14:22:22 UTC] PHP Stack trace:
+[14-Mar-2017 14:22:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:22:22 UTC] PHP   2. mysqli_stmt_fetch() /home/ubuntu/workspace/app/login.php:17
+[14-Mar-2017 14:23:27 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 8
+[14-Mar-2017 14:23:27 UTC] PHP Stack trace:
+[14-Mar-2017 14:23:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:23:27 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/login.php:8
+[14-Mar-2017 14:23:27 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 9
+[14-Mar-2017 14:23:27 UTC] PHP Stack trace:
+[14-Mar-2017 14:23:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:23:27 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/login.php:9
+[14-Mar-2017 14:23:27 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 11
+[14-Mar-2017 14:23:27 UTC] PHP Stack trace:
+[14-Mar-2017 14:23:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:23:27 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/app/login.php:11
+[14-Mar-2017 14:23:27 UTC] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 12
+[14-Mar-2017 14:23:27 UTC] PHP Stack trace:
+[14-Mar-2017 14:23:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:23:27 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/app/login.php:12
+[14-Mar-2017 14:23:27 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 17
+[14-Mar-2017 14:23:27 UTC] PHP Stack trace:
+[14-Mar-2017 14:23:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:23:27 UTC] PHP   2. mysqli_stmt_fetch() /home/ubuntu/workspace/app/login.php:17
+[14-Mar-2017 14:23:29 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 8
+[14-Mar-2017 14:23:29 UTC] PHP Stack trace:
+[14-Mar-2017 14:23:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:23:29 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/login.php:8
+[14-Mar-2017 14:23:29 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 9
+[14-Mar-2017 14:23:29 UTC] PHP Stack trace:
+[14-Mar-2017 14:23:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:23:29 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/login.php:9
+[14-Mar-2017 14:23:29 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 11
+[14-Mar-2017 14:23:29 UTC] PHP Stack trace:
+[14-Mar-2017 14:23:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:23:29 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/app/login.php:11
+[14-Mar-2017 14:23:29 UTC] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 12
+[14-Mar-2017 14:23:29 UTC] PHP Stack trace:
+[14-Mar-2017 14:23:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:23:29 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/app/login.php:12
+[14-Mar-2017 14:23:29 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 17
+[14-Mar-2017 14:23:29 UTC] PHP Stack trace:
+[14-Mar-2017 14:23:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:23:29 UTC] PHP   2. mysqli_stmt_fetch() /home/ubuntu/workspace/app/login.php:17
+[14-Mar-2017 14:24:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'appUsers' in /home/ubuntu/workspace/app/login.php on line 2
+[14-Mar-2017 14:24:08 UTC] PHP Stack trace:
+[14-Mar-2017 14:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:24:08 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/app/login.php:2
+[14-Mar-2017 14:24:08 UTC] PHP Warning:  mysqli_prepare() expects parameter 1 to be mysqli, boolean given in /home/ubuntu/workspace/app/login.php on line 7
+[14-Mar-2017 14:24:08 UTC] PHP Stack trace:
+[14-Mar-2017 14:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:24:08 UTC] PHP   2. mysqli_prepare() /home/ubuntu/workspace/app/login.php:7
+[14-Mar-2017 14:24:08 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/app/login.php on line 8
+[14-Mar-2017 14:24:08 UTC] PHP Stack trace:
+[14-Mar-2017 14:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:24:08 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/login.php:8
+[14-Mar-2017 14:24:08 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/app/login.php on line 9
+[14-Mar-2017 14:24:08 UTC] PHP Stack trace:
+[14-Mar-2017 14:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:24:08 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/login.php:9
+[14-Mar-2017 14:24:08 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/app/login.php on line 11
+[14-Mar-2017 14:24:08 UTC] PHP Stack trace:
+[14-Mar-2017 14:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:24:08 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/app/login.php:11
+[14-Mar-2017 14:24:08 UTC] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/app/login.php on line 12
+[14-Mar-2017 14:24:08 UTC] PHP Stack trace:
+[14-Mar-2017 14:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:24:08 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/app/login.php:12
+[14-Mar-2017 14:24:08 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, null given in /home/ubuntu/workspace/app/login.php on line 17
+[14-Mar-2017 14:24:08 UTC] PHP Stack trace:
+[14-Mar-2017 14:24:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:24:08 UTC] PHP   2. mysqli_stmt_fetch() /home/ubuntu/workspace/app/login.php:17
+[14-Mar-2017 14:24:34 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 8
+[14-Mar-2017 14:24:34 UTC] PHP Stack trace:
+[14-Mar-2017 14:24:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:24:34 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/login.php:8
+[14-Mar-2017 14:24:34 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 9
+[14-Mar-2017 14:24:34 UTC] PHP Stack trace:
+[14-Mar-2017 14:24:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:24:34 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/login.php:9
+[14-Mar-2017 14:24:34 UTC] PHP Warning:  mysqli_stmt_store_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 11
+[14-Mar-2017 14:24:34 UTC] PHP Stack trace:
+[14-Mar-2017 14:24:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:24:34 UTC] PHP   2. mysqli_stmt_store_result() /home/ubuntu/workspace/app/login.php:11
+[14-Mar-2017 14:24:34 UTC] PHP Warning:  mysqli_stmt_bind_result() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 12
+[14-Mar-2017 14:24:34 UTC] PHP Stack trace:
+[14-Mar-2017 14:24:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:24:34 UTC] PHP   2. mysqli_stmt_bind_result() /home/ubuntu/workspace/app/login.php:12
+[14-Mar-2017 14:24:34 UTC] PHP Warning:  mysqli_stmt_fetch() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/login.php on line 17
+[14-Mar-2017 14:24:34 UTC] PHP Stack trace:
+[14-Mar-2017 14:24:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/login.php:0
+[14-Mar-2017 14:24:34 UTC] PHP   2. mysqli_stmt_fetch() /home/ubuntu/workspace/app/login.php:17

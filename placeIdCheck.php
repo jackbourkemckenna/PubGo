@@ -7,6 +7,12 @@ if (!isset($_SESSION['userSession'])) {
 }
 
 
+session_start();
+include_once 'dbconnect.php';
+include 'dbQueries/placeId.php';
+if (!isset($_SESSION['userSession'])) {
+ header("Location: index.php");
+}
      
     if ($userPlaceID['place_id'] == false) {
     ?><h1>Search for your pub/restaurant</h1>
@@ -23,8 +29,6 @@ if (!isset($_SESSION['userSession'])) {
     
     
     
-
-
 
     
 ?>

@@ -1,10 +1,8 @@
 <?php
-
-if (!isset($_SESSION['userSession'])) {
- header("Location: index.php");
-}
-?>
-
+   if (!isset($_SESSION['userSession'])) {
+    header("Location: index.php");
+   }
+   ?>
 <link rel="stylesheet" href= "resources/css/style.css">
 <script type="text/javascript" src="resources/js/maps.js"></script>
   
@@ -16,5 +14,3 @@ if (!isset($_SESSION['userSession'])) {
  
  
 </script>
-
-z

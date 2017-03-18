@@ -6,5 +6,4 @@
   $DBname = "pubgo";
   
   $DBcon = new MySQLi($DBhost,$DBuser,$DBpass,$DBname);
-    
 ?>
