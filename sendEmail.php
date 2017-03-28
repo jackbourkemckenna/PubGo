@@ -2,7 +2,7 @@
 if (isset($_POST['send'])) {
     // code...
     $to         = "pubgoinfo@gmail.com";
-    $from       = strip_tags($_POST['contact_email']);
+    $from       = ($_POST['contact_email']);
     $first_name = strip_tags($_POST['first_name']);
     $last_name  = strip_tags($_POST['last_name']);
     $subject    = strip_tags($_POST['subject']);

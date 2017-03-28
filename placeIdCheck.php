@@ -15,7 +15,7 @@ if (!isset($_SESSION['userSession'])) {
 }
      
     if ($userPlaceID['place_id'] == false) {
-    ?><h1>Search for your pub/restaurant</h1>
+    ?>
       
       
       
@@ -24,7 +24,7 @@ if (!isset($_SESSION['userSession'])) {
     } else {
      
      echo $userPlaceID['place_id'];
-     echo '<br><h1>this will display users profile information!</h1>';
+     //echo '<br><h1>this will display users profile information!</h1>';
     }
     
     

@@ -13,26 +13,25 @@
                     <li><a href="#contact">Help</a></li>
                     <li>
                         <form class="form-signin" method="post" id="login-form">
-                            
                             <div class="form-group nav-sign-in">
                                 <input type="email" class="form-control" placeholder="Email address" name="email" required />
                                 <span id="check-e"></span>
                             </div>
-                            </li>
-                            <li>
+                    </li>
+                    <li>
                             <div class="form-group nav-sign-in">
                                 <input id="sign_in_password" type="password" class="form-control" placeholder="Password" name="password" required />
                             </div>
-                            </li>
+                    </li>
                             
-                            <li>
-                            <div class="form-group nav-sign-in">
-                                <button type="submit" class="btn btn-default" name="btn-login" id="btn-login">
-                                    <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
-                                </button> 
-                            </div>
+                    <li>
+                        <div class="form-group nav-sign-in">
+                            <button type="submit" class="btn btn-default" name="btn-login" id="btn-login">
+                                <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
+                            </button> 
+                        </div>
                         </form>
-                        </li>
+                    </li>
                     
                 </ul>
             </div>

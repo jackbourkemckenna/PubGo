@@ -2,10 +2,12 @@
    <html>
       <head>
          <?php
+         //includes the header links.
          include('header.php');
+         //includes the log in session.
          include('loginSession.php');
          ?>
-         <!--password Validation-->   
+         <!--password Validation Function-->   
          <script>
             function check_pass(){
                var password = document.getElementById("sign_up_password1").value;
@@ -30,13 +32,16 @@
           include('navigationBar.php');
           ?>
          <div class="container">
+            <!--Jumbotron-->
             <div class="jumbotron">
                <h1>PubGo on Android</h1>
                <p>PubGo is an application which allows people to view information about pubs and bars in their area and see current promotions that they are having</p>
                <button type="button" class="btn btn-default">Download</button>
             </div>
+            <!--Sign Up Form-->
             <form class="form-signin" method="post" id="register-form">
                <hr/>
+               <!--Sign In/Up Error Message-->
                <?php
                   if (isset($msg)) {
                       echo $msg;
@@ -67,9 +72,9 @@
                <div class="form-group">
                   <input type="text" class="form-control" placeholder="Pub owner Name" name="pub_owner" required  />
                </div>
-               <hr />
+               <hr/>
+               <!--Displays Password Do Not Match Error-->
                <div id="password_match_error">
-                  <!--<p>Your passwords do not match</p>-->
                   <div class='alert alert-danger'>
                      <span class='glyphicon glyphicon-info-sign'></span> &nbsp; <strong>Passwords</strong> do not match
                   </div>
