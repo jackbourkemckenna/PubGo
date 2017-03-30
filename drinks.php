@@ -1,22 +1,16 @@
-
-
-
 <?php 
-   if (isset($_POST['btn-drink'])) {
-    $filetxt = 'drinksList.json';
+    if (isset($_POST['btn-drink'])) {
+        
+        $drink      = strip_tags($_POST['drink']);
+        $price      = strip_tags($_POST['price']);
+        
+        $drink      = $DBcon->real_escape_string($drink);
+        $price      = $DBcon->real_escape_string($price);
+        $drink_types = array('Cider', 'Beer', 'Spirit', 'Cocktails');
+        $selected_key = $_POST['drink_type'];
+        $selected_val = $drink_types[$_POST['drink_type']];
+ 
+        $sql =$DBcon->query("INSERT INTO `drinks`(`name`, `type`, `price`, `pub_id`) VALUES ('$drink', '$selected_val', $price, ".$_SESSION['userSession'].")");
 
-    $formdata = array(
-        'drink'=> $_POST['drink'],
-       
-    );
-
-    $arr_data = array();  
-    $jsondata = file_get_contents($filetxt);
-    $arr_data = json_decode($jsondata, true);
-    $arr_data[] = $formdata;
-    $jsondata = json_encode($arr_data, JSON_PRETTY_PRINT);
-    file_put_contents('drinksList.json', $jsondata);
-}
+    }
 ?>
-
-   

@@ -5,7 +5,6 @@
         <?php
             include('loginSession.php');
             include('header.php');
-            include('sendEmail.php');
         ?>
     </head>
     <body>
@@ -27,7 +26,7 @@
                     <h2>Contact Us</h2>
                     <hr/>
                     <br>
-                    <form class="form-signin" method="post">
+                    <form class="form-signin" method="post" action="sendEmail.php">
                         
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="First Name" name="first_name" required  />
@@ -50,7 +49,7 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-default" name="send" value="send">
+                            <button type="submit" class="btn btn-default" name="send" id="send">
                                 <span class="glyphicon glyphicon-envelope"></span> &nbsp; Send Email
                             </button> 
                         </div>

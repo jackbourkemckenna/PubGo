@@ -4,11 +4,14 @@
    <li><a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Logout</a></li>
    <li><a href="account.php"><span class="glyphicon glyphicon-user"></span>&nbsp; Account</a></li>
    <head>
+       
+      <!--Style CSS Link-->
+         <link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
       <!-- Slick image galery -->
         <link rel="stylesheet" type="text/css" href="/resources/css/slick.css"/>
-  <link rel="stylesheet/less" type="text/css" href="/resources/css/slick-theme.less"/>
+        <link rel="stylesheet/less" type="text/css" href="/resources/css/slick-theme.less"/>
   
-  
+      <!--Bootstrap-->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <script
          src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -17,7 +20,7 @@
       </script>
    </head>
    
-   <h1>this will display the Pub Name!</h1>
+   
    <?php
       session_start();
       $_SESSION['place'] = $placeValue;
@@ -75,14 +78,12 @@
         }
         */
       
-          foreach($jsonData->result->address_components as $addressComponent) {
-              echo $addressComponent->long_name.'<br>';
-          }
+         /
         
           foreach($jsonData->result->photos as $key=>$images) {
               $output = $images->photo_reference;
               $imageArray[$key] = '<img src=https://maps.googleapis.com/maps/api/place/photo?photoreference='.$output.'&sensor=false&maxheight=600&maxwidth=600&key=AIzaSyBnqeT9W-h2qeppvw7HSjbVbMWRvAHWEy4>';
-          }
+          } 
           
           /*for($i=0; $i<sizeof($jsonData->result->photos); $i++){
            //for($j = 0; $j<sizeof($jsonData->result->photos);$j++){
@@ -120,7 +121,11 @@
       <img src="https://maps.googleapis.com/maps/api/place/photo?photoreference=<?php echo $output; ?>&sensor=false&maxheight=600&maxwidth=600&key=AIzaSyBnqeT9W-h2qeppvw7HSjbVbMWRvAHWEy4"></img>
       </div>
 	-->
-	
+	<h1>
+       <?php
+       //get pub name from pubUsers table
+       ?>
+   </h1>
         <!--Images Carousel-->
         <div class="row">
             <div class="col-md-3"></div>
@@ -194,7 +199,7 @@
         </div>
         <br>
         <br>
-    <div class="row">
+    <div class="row footer">
         <div class="col-md-1"></div>
         <div class="col-md-4">
             <!--Discount Code Form-->
@@ -215,11 +220,25 @@
            <!--Drinks List JSON File-->
            <h1>Enter the drinks you sell</h1>
            <form id = "drinks" action="dashboard.php" class = "chatform" method="POST">
-              <div class="form-group" id="drinkList">
+              <div class="form-group" id="drink">
                  <label for="drink">Drink</label>
-                 <input type="text" class="form-control" id="drink" name="drink" placeholder="Eg:Bulmers">
+                 <input type="text" class="form-control" id="drink" name="drink" placeholder="Eg: Bulmers">
               </div>
-              <button class="btn btn-primary" id ="loginbutton" name ="btn-drink">Send</button>
+              <div class="form-group" id="price">
+                 <label for="price">Price</label>
+                 <input type="text" class="form-control" id="price" name="price" placeholder="Eg: 5.95">
+              </div>
+              <div class="form-group" id="drinkType">
+                 <label for="drinkType">Drink Type</label>
+                <!-- <input type="text" class="form-control" id="drinkType" name="drinkType" placeholder="Eg: Cider">-->
+                 <select id="drink_type" name="drink_type">
+                     <option value="0">Cider</option>
+                     <option value="1">Beer</option>
+                     <option value="2">Spirit</option>
+                     <option value="3">Cocktails</option>
+                 </select>
+              </div>
+              <button class="btn btn-primary" id ="btn-drink" name ="btn-drink">Send</button>
            </form>
        </div>
        <div class="col-md-1"></div>
