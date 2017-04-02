@@ -75,3 +75,40 @@ body {
 .footer{
 	background-color: #212121;
 }
+
+.footer>.blackBackground>h1{
+	color:white;
+	font-size: 18px;
+	text-align: center;
+	
+}
+
+.footer>.blackBackground>form>.form-group>label{
+	color:white;
+	
+}
+
+.footer>.blackBackground>form>.row>.form-group>label{
+	color:white;
+	
+}
+
+.footer>.blackBackground>h3{
+	color:white;
+	text-align:center;
+}
+
+.footer>.blackBackground>h4{
+	color:#64B5F6;
+	text-align:center;
+}
+
+.text-center{
+	text-align: center;
+	font-size: 40px;
+}
+
+.pub-title{
+	text-align: center;
+	font-size: 60px;
+}

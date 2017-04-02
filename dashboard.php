@@ -37,7 +37,7 @@
 
       $userLoggedIn=$query1->fetch_array();
       
-    ?>     <h3>current discount running <?php  echo $rDiscount1['dbconnect']; ?> </h3>
+    ?>     
     <?php
       // linking off to check if the user has his place ID saved to his account. If not will show map.php and let them submit. 
       include('placeIdCheck.php');
@@ -75,10 +75,10 @@
          echo $jsonData->result->address_components[$i]->short_name.'<br>';
          print_r($jsonData->result->address_components[$i]->types).'<br>';
          echo '<hr>';
-        }
-        */
+        }*/
+        
       
-         /
+         
         
           foreach($jsonData->result->photos as $key=>$images) {
               $output = $images->photo_reference;
@@ -121,16 +121,36 @@
       <img src="https://maps.googleapis.com/maps/api/place/photo?photoreference=<?php echo $output; ?>&sensor=false&maxheight=600&maxwidth=600&key=AIzaSyBnqeT9W-h2qeppvw7HSjbVbMWRvAHWEy4"></img>
       </div>
 	-->
-	<h1>
-       <?php
-       //get pub name from pubUsers table
-       ?>
-   </h1>
+	<div class="row">
+	<div class="col-md-3"></div>
+	<div class="col-md-6 pub-title">
+    	<h1>
+           <?php
+            
+            
+            $result = $DBcon->query("SELECT pub_name from pubUsers where pub_id =".$_SESSION['userSession'].";");
+                if ($result->num_rows > 0) {
+                // output data of each row
+                    while($row = $result->fetch_assoc()) {
+                    echo $row["pub_name"]."<br>";
+                    }
+                } else {
+                echo "no pub name";
+            }
+            ?>
+        </h1>
+    </div>
+    <div class="col-md-3"></div>
+    </div>
+   
         <!--Images Carousel-->
         <div class="row">
             <div class="col-md-3"></div>
             <div class="col-md-6">
                 <div class="one-time">
+                    <div style="height: 600px;">
+                        <?php  echo $imageArray[0]; ?>
+                    </div>
                     <div style="height: 600px;">
                         <?php  echo $imageArray[1]; ?>
                     </div>
@@ -158,9 +178,6 @@
                     <div style="height: 600px;">
                         <?php  echo $imageArray[9]; ?>
                     </div>
-                    <div style="height: 600px;">
-                        <?php  echo $imageArray[10]; ?>
-                    </div>
                 </div>
             </div>
 
@@ -182,11 +199,11 @@
         <!--Pub Info from Google JSON File-->
         <div class="row">
             <div class="col-md-3"></div>
-            <div class="col-md-6">
+            <div class="col-md-6 text-center">
                 <?php
                 echo $jsonData->result->weekday_text;
                 
-                echo $jsonData->result->adr_address.'<br>';
+                echo $jsonData->result->adr_address.'<br><br>';
                 
                 foreach($jsonData->result->opening_hours->weekday_text as $open){
                     echo $open;
@@ -201,24 +218,38 @@
         <br>
     <div class="row footer">
         <div class="col-md-1"></div>
-        <div class="col-md-4">
+        <div class="col-md-4 blackBackground">
             <!--Discount Code Form-->
-            <h1>Enter a discount code for users to use in your pub</h1>
+            <h1 id="disocuntHeader">Enter a discount code for users to use in your pub</h1>
+            <br>
             <form class="form-discount" method="post" id="discount-form">
                 <div class="form-group">
+                    <label for="discount">Discount Code</label>
                     <input id="discount" type="text" class="form-control" name="discount" minlength="4" maxlength="10" required  />
                 </div>
-                <div class="form-group">
-                    <button id="submit" type="submit" class="btn btn-default" name="btn-discount">
-                    <span class="glyphicon glyphicon-plus"></span><span class="glyphicon glyphicon-user"></span> submit
+                <br>
+                <div class="col-md-4"></div>
+                <div class="form-group col-md-4">
+                    <button id="submit" type="submit" class="btn btn-primary" name="btn-discount">
+                    <span class="glyphicon glyphicon-plus"></span> Add Code
                     </button> 
                 </div>
-           </form>
+                <div class="col-md-4"></div>
+           </form><br><br><br><h3>current discount running </h3><h4><?php $result = $DBcon->query("SELECT discount from pubUsers where pub_id =".$_SESSION['userSession'].";");
+                                                        if ($result->num_rows > 0) {
+                                                        // output data of each row
+                                                            while($row = $result->fetch_assoc()) {
+                                                            echo $row["discount"]."<br>";
+                                                            }
+                                                        } else {
+                                                        echo "no current discount code";
+                                                    } ?> </h4>
        </div>
        <div class="col-md-2"></div>
-       <div class="col-md-4">
-           <!--Drinks List JSON File-->
+       <div class="col-md-4 blackBackground">
+           <!--Drinks List Form-->
            <h1>Enter the drinks you sell</h1>
+           <br>
            <form id = "drinks" action="dashboard.php" class = "chatform" method="POST">
               <div class="form-group" id="drink">
                  <label for="drink">Drink</label>
@@ -228,9 +259,10 @@
                  <label for="price">Price</label>
                  <input type="text" class="form-control" id="price" name="price" placeholder="Eg: 5.95">
               </div>
-              <div class="form-group" id="drinkType">
+              <div class="row">
+              <div class="col-md-4"></div>
+              <div class="form-group col-md-4" id="drinkType">
                  <label for="drinkType">Drink Type</label>
-                <!-- <input type="text" class="form-control" id="drinkType" name="drinkType" placeholder="Eg: Cider">-->
                  <select id="drink_type" name="drink_type">
                      <option value="0">Cider</option>
                      <option value="1">Beer</option>
@@ -238,8 +270,21 @@
                      <option value="3">Cocktails</option>
                  </select>
               </div>
-              <button class="btn btn-primary" id ="btn-drink" name ="btn-drink">Send</button>
+              <div class="col-md-4"></div>
+              </div>
+              <div class="row">
+                  <div class="col-md-2"></div>
+                  <div class="col-md-3">
+                      <button class="btn btn-primary" id ="btn-drink" name ="btn-drink">Send</button>
+                  </div>
+                  <div class="col-md-2"></div>
+                  <div class="col-md-3">
+                      <a href="drinkView.php">Edit Drinks Here <span class="glyphicon glyphicon-arrow-right"></span></a>
+                  </div>
+                  <div class="col-md-2"></div>
+              </div>
            </form>
+           
        </div>
        <div class="col-md-1"></div>
    </div>
