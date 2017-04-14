@@ -23,7 +23,7 @@ if (!isset($_SESSION['userSession'])) {
       include('map.php');
     } else {
      
-     echo $userPlaceID['place_id'];
+     //echo $userPlaceID['place_id'];
      //echo '<br><h1>this will display users profile information!</h1>';
     }
     

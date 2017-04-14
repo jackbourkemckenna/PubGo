@@ -112,6 +112,10 @@
 
     border: 1px solid transparent;
 }
-.slick-arrow.slick-hidden {
+.slick-prev,
+.slick-next{
     
+    
+    color: blue;
 }
+

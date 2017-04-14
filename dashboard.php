@@ -1,9 +1,11 @@
+<html>
+    <head>
+   
 
-   <a href="#"><strong> <?php echo $userLoggedIn['email']; ?></strong></a>
-
-   <li><a href="logout.php?logout"><span class="glyphicon glyphicon-log-out"></span>&nbsp; Logout</a></li>
-   <li><a href="account.php"><span class="glyphicon glyphicon-user"></span>&nbsp; Account</a></li>
-   <head>
+   <?php
+   include('SessionNavigationBar.php');
+   ?>
+   
        
       <!--Style CSS Link-->
          <link rel="stylesheet" type="text/css" href="resources/css/style.css"/>
@@ -19,7 +21,7 @@
          crossorigin="anonymous">
       </script>
    </head>
-   
+   <body>
    
    <?php
       session_start();
@@ -70,12 +72,7 @@
       } else {
         
         $jsonData = json_decode($response);
-       /* for($i=0; $i<sizeof($jsonData->result->address_components); $i++){
-         echo $jsonData->result->address_components[$i]->long_name.'<br>';
-         echo $jsonData->result->address_components[$i]->short_name.'<br>';
-         print_r($jsonData->result->address_components[$i]->types).'<br>';
-         echo '<hr>';
-        }*/
+       
         
       
          
@@ -85,42 +82,13 @@
               $imageArray[$key] = '<img src=https://maps.googleapis.com/maps/api/place/photo?photoreference='.$output.'&sensor=false&maxheight=600&maxwidth=600&key=AIzaSyBnqeT9W-h2qeppvw7HSjbVbMWRvAHWEy4>';
           } 
           
-          /*for($i=0; $i<sizeof($jsonData->result->photos); $i++){
-           //for($j = 0; $j<sizeof($jsonData->result->photos);$j++){
-           $output =  $jsonData->result->photos->photo_reference;
-           //$jsonData->photo_reference;
-           $imageArray[$i] = '<img src=https://maps.googleapis.com/maps/api/place/photo?photoreference='.$output.'&sensor=false&maxheight=600&maxwidth=600&key=AIzaSyBnqeT9W-h2qeppvw7HSjbVbMWRvAHWEy4>';
-           //echo $imageArray[$j];
-           echo $imageArray[$i];
-           
-          //}
-          */
-           
-         //echo $jsonData->result->address_components[$i]->long_name.'<br>';
-         //echo $jsonData->result->address_components[$i]->short_name.'<br>';
-         //print_r($jsonData->result->address_components[$i]->types).'<br>';
-         //echo '<hr>';
+         
         }
           
-          /*
-          echo $imageArray[1];
-          echo $imageArray[2];
-          echo $imageArray[3];
-          echo $imageArray[4];
-          echo $imageArray[5];
-          echo $imageArray[6];
-          echo $imageArray[7];
-          echo $imageArray[8];
-          echo $imageArray[9];
-          echo $imageArray[10];
-          */
+          
       ?>
-   <!--
-      <div class="col-md-4"></div>
-      <div class="col-md-4">
-      <img src="https://maps.googleapis.com/maps/api/place/photo?photoreference=<?php echo $output; ?>&sensor=false&maxheight=600&maxwidth=600&key=AIzaSyBnqeT9W-h2qeppvw7HSjbVbMWRvAHWEy4"></img>
-      </div>
-	-->
+    
+   
 	<div class="row">
 	<div class="col-md-3"></div>
 	<div class="col-md-6 pub-title">
@@ -139,6 +107,7 @@
             }
             ?>
         </h1>
+    
     </div>
     <div class="col-md-3"></div>
     </div>
@@ -186,12 +155,15 @@
             <script type="text/javascript" src="/resources/js/slick.js"></script>
             <script type="text/javascript">
                 $('.one-time').slick({
-                  dots: true,
+                  dots: false ,
                   infinite: true,
                   speed: 300,
                   slidesToShow: 1,
-                  adaptiveHeight: true
+                  adaptiveHeight: true,
+                 
                 });
+                
+                 
             </script>
             <div class="col-md-3"></div>
         </div>
@@ -288,5 +260,6 @@
        </div>
        <div class="col-md-1"></div>
    </div>
+</body>
    
 </html>

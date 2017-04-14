@@ -1,3 +1,7 @@
+body{
+	background-color:#F5F5F5;
+}
+
 #login {
     float: none; 
 }
@@ -99,16 +103,79 @@ body {
 }
 
 .footer>.blackBackground>h4{
-	color:#64B5F6;
+	color:#F5DA5A;
 	text-align:center;
 }
 
 .text-center{
 	text-align: center;
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .pub-title{
 	text-align: center;
 	font-size: 60px;
+}
+
+.headerHome>h1{
+	font-size: 35px;
+}
+
+
+
+.grad {
+  background: #1A237E; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #263238, #1A237E); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #263238, #1A237E); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #263238, #1A237E); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #263238, #1A237E); /* Standard syntax */
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+	color:#F5DA5A;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color:white;
+}
+
+.navbar-default > .grad > .navbar-nav > li > a:hover, .navbar-default > .grad > .navbar-nav > li > a:focus{
+	color:#F5DA5A;
+}
+
+.navbar-default > .grad > .navbar-nav > li > a{
+	color:white;
+}
+
+.navbar-default > .navbar-header > a:hover, .navbar-default > .navbar-header > a:focus{
+	color:#F5DA5A;
+}
+
+.navbar-default > .navbar-header > a{
+	color:white;
+}
+
+.drink-list > h1{
+	font-size:50px;
+}
+
+.back-img{
+	background-color: red;
+	width:100%;
+}
+
+.navbar-default{
+	margin-bottom: unset;
+}
+
+.back-img{
+	background: #F5F5F5; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #FFECB3, #D1C4E9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FFECB3, #D1C4E9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FFECB3, #D1C4E9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FFECB3, #D1C4E9); /* Standard syntax */
+}
+
+.jumbotron{
+	background-color: #F5F5F5;
 }

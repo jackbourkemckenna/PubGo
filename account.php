@@ -29,14 +29,10 @@
             </script>
         </head>
         <body>
-            <nav class="navbar navbar-default" role="navigation">
-                <div class="navbar-header">
-                    <a href="dashboard.php"><span class="glyphicon glyphicon-chevron-left"></span>Back to Dashboard</a>
-                </div>
-            </nav>
             <?php
             session_start();
             require_once 'dbconnect.php';
+            include("SessionNavigationBar.php");
             ?>
                 <div class="row">
                     <div class="col-md-3"></div>
@@ -51,7 +47,7 @@
                                 <input id="password2" type="password" class="form-control" placeholder="Confirm New Password" name="password2" required />
                             </div>
                             <div class="form-group nav-sign-in">
-                                <button type="submit" class="btn btn-default" name="btn-reset" id="btn-reset" value="Submit">
+                                <button type="submit" class="btn btn-primary" name="btn-reset" id="btn-reset" value="Submit">
                                     <span class="glyphicon glyphicon-repeat"></span> &nbsp; Change Password
                                 </button> 
                             </div>

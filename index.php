@@ -31,20 +31,27 @@
          <?php
           include('navigationBar.php');
           ?>
-         <div class="container">
+         <div class="container back-img">
             <div class="row">
                <div class="col-md-1"></div>
                <div class="col-md-10 row jumbotron">
                   
                      <!--Jumbotron-->
-                  <div class="col-md-6">
+                  <div class="col-md-5 headerHome">
                      <h1>PubGo on Android</h1>
-                     <p>PubGo is an application which allows people to view information about pubs and bars in their area and see current promotions that they are having</p>
-                     <button type="button" class="btn btn-default">Download</button>
+                     <br>
+                     <br>
+                     <p>PubGo is an application which allows people to view information about pubs and bars in their area and see current promotions that they are having.</p>
+                     <br>
+                     <p>Our App allows people access cheap drink while also accessing he social scene from pubs.</p>
+                     <br>
+                     <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> &nbsp; Download</button>
                   </div>
                   <div class="col-md-1"></div>
-                  <div class="col-md-5">
+                  <div class="col-md-6 headerHome">
                      <!--Sign Up Form-->
+                     <h1>Sign Up Here</h1>
+                     <hr/>
                      <form class="form-signin" method="post" id="register-form">
                         <hr/>
                         <!--Sign In/Up Error Message-->
@@ -54,8 +61,7 @@
                                
                            }
                            ?>
-                        <h1>Sign Up Here</h1>
-                        <hr/>
+                        
                         <div class="form-group">
                            <input type="text" class="form-control" placeholder="First Name" name="f_name" required  />
                         </div>
@@ -86,8 +92,8 @@
                            </div>
                         </div>
                         <div class="form-group">
-                           <button id="submit" type="submit" class="btn btn-default" name="btn-signup">
-                           <span class="glyphicon glyphicon-plus"></span><span class="glyphicon glyphicon-user"></span> &nbsp; Create Account
+                           <button id="submit" type="submit" class="btn btn-primary" name="btn-signup">
+                           <span class="glyphicon glyphicon-plus"></span> &nbsp; Create Account
                            </button> 
                         </div>
                      </form>

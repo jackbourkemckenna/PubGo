@@ -7,10 +7,9 @@
                 </button>    
                 <a class="navbar-brand" href="index.php">PubGo</a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse grad">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="about.php">About</a></li>
-                    <li><a href="#contact">Help</a></li>
                     <li>
                         <form class="form-signin" method="post" id="login-form">
                             <div class="form-group nav-sign-in">
@@ -26,7 +25,7 @@
                             
                     <li>
                         <div class="form-group nav-sign-in">
-                            <button type="submit" class="btn btn-default" name="btn-login" id="btn-login">
+                            <button type="submit" class="btn btn-warning" name="btn-login" id="btn-login">
                                 <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In
                             </button> 
                         </div>

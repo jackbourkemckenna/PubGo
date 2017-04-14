@@ -49,7 +49,7 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-default" name="send" id="send">
+                            <button type="submit" class="btn btn-primary" name="send" id="send">
                                 <span class="glyphicon glyphicon-envelope"></span> &nbsp; Send Email
                             </button> 
                         </div>
