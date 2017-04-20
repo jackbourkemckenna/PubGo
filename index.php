@@ -36,7 +36,7 @@
                <div class="col-md-1"></div>
                <div class="col-md-10 row jumbotron">
                   
-                     <!--Jumbotron-->
+                  <!--Jumbotron-->
                   <div class="col-md-5 headerHome">
                      <h1>PubGo on Android</h1>
                      <br>
@@ -52,6 +52,7 @@
                      <!--Sign Up Form-->
                      <h1>Sign Up Here</h1>
                      <hr/>
+                     <!--Sign Up Form-->
                      <form class="form-signin" method="post" id="register-form">
                         <hr/>
                         <!--Sign In/Up Error Message-->

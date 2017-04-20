@@ -7,6 +7,14 @@
 // parameter when you first load the API. For example:
 // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
 
+
+
+
+/* 
+We used this code on code pen to help speed up our proccess building the map  
+We modified the code to save place id and submit it. We are saving it with cookies.
+
+*/
 function initMap() {
 	var map = new google.maps.Map(document.getElementById('map'), {
 		center: {
@@ -51,8 +59,8 @@ function initMap() {
 			location: place.geometry.location
 		});
 		marker.setVisible(true);
-
-
+			
+		//sets a form submit on the map mark and stores it in cookies
 		infowindow.setContent('<div ><strong>' + place.name + '</strong><br>' +
 			'Save your pub/restraunt Location: <br>'  +
                          "<tr><td><form id = 'myForm' method='get'action='placeIdSubmitDb.php'><input id = 'hiddenField' type='hidden' name='place' value='@'><input type='submit'></form></form></td></tr>"

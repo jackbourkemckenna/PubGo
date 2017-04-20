@@ -8,6 +8,7 @@
         ?>
     </head>
     <body>
+        <!--Calling in Nav Bar-->
         <?php
         include('navigationBar.php');
         ?>

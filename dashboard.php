@@ -29,7 +29,6 @@
       include_once 'dbconnect.php';
       include 'dbQueries/placeId.php';
       include 'dbQueries/discountSubmit.php';
-      include 'dbQueries/currentDiscount.php';
       include 'drinks.php';
       include 'dbQueries/discount.php';
       if (!isset($_SESSION['userSession'])) {
@@ -76,10 +75,10 @@
         
       
          
-        
+        //Storing all of the images from googles JSON file into an array
           foreach($jsonData->result->photos as $key=>$images) {
               $output = $images->photo_reference;
-              $imageArray[$key] = '<img src=https://maps.googleapis.com/maps/api/place/photo?photoreference='.$output.'&sensor=false&maxheight=600&maxwidth=600&key=AIzaSyBnqeT9W-h2qeppvw7HSjbVbMWRvAHWEy4>';
+                 $imageArray[$key] = '<img src=https://maps.googleapis.com/maps/api/place/photo?photoreference='.$output.'&sensor=false&maxheight=600&maxwidth=600&key=AIzaSyBnqeT9W-h2qeppvw7HSjbVbMWRvAHWEy4>';
           } 
           
          
@@ -95,7 +94,7 @@
     	<h1>
            <?php
             
-            
+            //Displays the pub name
             $result = $DBcon->query("SELECT pub_name from pubUsers where pub_id =".$_SESSION['userSession'].";");
                 if ($result->num_rows > 0) {
                 // output data of each row
@@ -154,6 +153,7 @@
             <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
             <script type="text/javascript" src="/resources/js/slick.js"></script>
             <script type="text/javascript">
+            //Slick theme settings
                 $('.one-time').slick({
                   dots: false ,
                   infinite: true,
@@ -207,15 +207,7 @@
                     </button> 
                 </div>
                 <div class="col-md-4"></div>
-           </form><br><br><br><h3>current discount running </h3><h4><?php $result = $DBcon->query("SELECT discount from pubUsers where pub_id =".$_SESSION['userSession'].";");
-                                                        if ($result->num_rows > 0) {
-                                                        // output data of each row
-                                                            while($row = $result->fetch_assoc()) {
-                                                            echo $row["discount"]."<br>";
-                                                            }
-                                                        } else {
-                                                        echo "no current discount code";
-                                                    } ?> </h4>
+           </form><br><br><br><h3>current discount running </h3><h4><?php include 'dbQueries/currentDiscount.php';?></h4>
        </div>
        <div class="col-md-2"></div>
        <div class="col-md-4 blackBackground">

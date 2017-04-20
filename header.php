@@ -1,6 +1,7 @@
 <?php
 
 include('signin.php');
+//includes connection to DB
 include('dbconnect.php');
 include('pubSignup.php');
 

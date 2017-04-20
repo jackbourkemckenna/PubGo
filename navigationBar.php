@@ -5,8 +5,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>    
+                <!-- Links off to the index.php page -->
                 <a class="navbar-brand" href="index.php">PubGo</a>
             </div>
+            <!-- Links of diffrent pages --> 
             <div class="navbar-collapse collapse grad">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="about.php">About</a></li>
@@ -24,6 +26,7 @@
                     </li>
                             
                     <li>
+                        <!-- login button -->
                         <div class="form-group nav-sign-in">
                             <button type="submit" class="btn btn-warning" name="btn-login" id="btn-login">
                                 <span class="glyphicon glyphicon-log-in"></span> &nbsp; Sign In

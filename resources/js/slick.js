@@ -14,6 +14,10 @@
   Issues: http://github.com/kenwheeler/slick/issues
  */
 /* global window, document, define, jQuery, setInterval, clearInterval */
+
+/* We decied to use slick js to speed up the development time. The code can be found on there website
+    http://kenwheeler.github.io/slick/
+*/
 (function(factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {

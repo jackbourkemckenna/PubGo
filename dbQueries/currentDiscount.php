@@ -2,7 +2,15 @@
   
   
 include 'dbconnect.php';
-    $query4 = $DBcon->query("SELECT * FROM pubUsers WHERE pub_id=2");
-    $te = $sql->fetch_array();
-     echo $te['place_id'];
+$result = $DBcon->query("SELECT discount from pubUsers where pub_id =".$_SESSION['userSession'].";");
+    if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+            echo $row["discount"]."<br>";
+            }
+        
+    } else {
+        echo "no current discount code";
+        } 
+    ?> 
  

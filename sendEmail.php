@@ -1,6 +1,6 @@
 <?php
 if (isset($_POST['send'])) {
-    // code...
+    // sending email to our sever.
     $to         = "pubgoinfo@gmail.com";
     $from       = ($_POST['contact_email']);
     $first_name = strip_tags($_POST['first_name']);

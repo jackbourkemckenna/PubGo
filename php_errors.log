@@ -581,3 +581,635 @@
 [14-Apr-2017 17:24:21 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/app/placeId.php on line 9
 [14-Apr-2017 17:24:21 UTC] PHP Stack trace:
 [14-Apr-2017 17:24:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/placeId.php:0
+[19-Apr-2017 14:58:19 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 14:58:19 UTC] PHP Stack trace:
+[19-Apr-2017 14:58:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 14:58:19 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 14:58:19 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 14:58:19 UTC] PHP Stack trace:
+[19-Apr-2017 14:58:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 14:58:19 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 14:59:11 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 14:59:11 UTC] PHP Stack trace:
+[19-Apr-2017 14:59:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 14:59:11 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 14:59:11 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 14:59:11 UTC] PHP Stack trace:
+[19-Apr-2017 14:59:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 14:59:11 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 14:59:14 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 14:59:14 UTC] PHP Stack trace:
+[19-Apr-2017 14:59:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 14:59:14 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 14:59:14 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 14:59:14 UTC] PHP Stack trace:
+[19-Apr-2017 14:59:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 14:59:14 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 14:59:15 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 14:59:15 UTC] PHP Stack trace:
+[19-Apr-2017 14:59:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 14:59:15 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 14:59:15 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 14:59:15 UTC] PHP Stack trace:
+[19-Apr-2017 14:59:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 14:59:15 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:22 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:22 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:22 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:22 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:22 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:22 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:22 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:22 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:22 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:22 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:22 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:22 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:22 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:22 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:22 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:22 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:22 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:22 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:36 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:36 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:36 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:36 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:36 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:36 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:37 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:37 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:37 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:37 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:37 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:37 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:38 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:38 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:38 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:38 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:38 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:38 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:39 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:39 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:39 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:39 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:39 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:39 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:39 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:39 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:39 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:39 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:39 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:39 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:39 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:39 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:39 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:39 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:39 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:39 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:40 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:40 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:40 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:40 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:40 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:40 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:40 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:40 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:40 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:40 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:40 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:40 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:40 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:40 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:40 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:40 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:40 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:40 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:41 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:41 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:42 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:42 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:42 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:42 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:42 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:42 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:42 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:42 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:42 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:42 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:42 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:42 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:42 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:42 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:42 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:42 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:42 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:42 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:00:42 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:00:42 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:42 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:00:42 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:00:42 UTC] PHP Stack trace:
+[19-Apr-2017 15:00:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:00:42 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:01:16 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:01:16 UTC] PHP Stack trace:
+[19-Apr-2017 15:01:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:01:16 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:01:16 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:01:16 UTC] PHP Stack trace:
+[19-Apr-2017 15:01:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:01:16 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:01:22 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:01:22 UTC] PHP Stack trace:
+[19-Apr-2017 15:01:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:01:22 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:01:22 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:01:22 UTC] PHP Stack trace:
+[19-Apr-2017 15:01:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:01:22 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:03:20 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:03:20 UTC] PHP Stack trace:
+[19-Apr-2017 15:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:03:20 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:03:20 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:03:20 UTC] PHP Stack trace:
+[19-Apr-2017 15:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:03:20 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:06:02 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:06:02 UTC] PHP Stack trace:
+[19-Apr-2017 15:06:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:06:02 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:06:02 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:06:02 UTC] PHP Stack trace:
+[19-Apr-2017 15:06:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:06:02 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:06:05 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:06:05 UTC] PHP Stack trace:
+[19-Apr-2017 15:06:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:06:05 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:06:05 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:06:05 UTC] PHP Stack trace:
+[19-Apr-2017 15:06:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:06:05 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:06:05 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:06:05 UTC] PHP Stack trace:
+[19-Apr-2017 15:06:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:06:05 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:06:05 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:06:05 UTC] PHP Stack trace:
+[19-Apr-2017 15:06:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:06:05 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:06:05 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:06:05 UTC] PHP Stack trace:
+[19-Apr-2017 15:06:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:06:05 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:06:05 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:06:05 UTC] PHP Stack trace:
+[19-Apr-2017 15:06:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:06:05 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:07:17 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:07:17 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:17 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:07:17 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:07:17 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:17 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:07:17 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:07:17 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:17 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:07:17 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:07:17 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:17 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:07:18 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:07:18 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:18 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:07:18 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:07:18 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:18 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:07:19 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:07:19 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:19 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:07:19 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:07:19 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:19 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:07:19 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:07:19 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:19 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:07:19 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:07:19 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:19 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:07:19 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:07:19 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:19 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:07:19 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:07:19 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:19 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:07:19 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:07:19 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:19 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:07:19 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:07:19 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:19 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:07:59 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:07:59 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:59 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:07:59 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:07:59 UTC] PHP Stack trace:
+[19-Apr-2017 15:07:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:07:59 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:06 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:06 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:06 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:06 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:06 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:06 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:07 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:07 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:07 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:07 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:07 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:07 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:07 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:07 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:07 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:07 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:07 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:07 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:07 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:07 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:07 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:07 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:07 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:07 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:07 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:07 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:08 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:08 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:08 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:08 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:08 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:08 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:08 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:08 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:08 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:08 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:08 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:08 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:08 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:08 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:08 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:08 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:09 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:09 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:09 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:09 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:09 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:09 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:09 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:09 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:09 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:09 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:09 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:09 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:09 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:09 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:09 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:09 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:09 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:09 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:10:09 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:10:09 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:09 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:10:09 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:10:09 UTC] PHP Stack trace:
+[19-Apr-2017 15:10:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:10:09 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:12:24 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:12:24 UTC] PHP Stack trace:
+[19-Apr-2017 15:12:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:12:24 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:12:24 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:12:24 UTC] PHP Stack trace:
+[19-Apr-2017 15:12:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:12:24 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:12:26 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:12:26 UTC] PHP Stack trace:
+[19-Apr-2017 15:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:12:26 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:12:26 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:12:26 UTC] PHP Stack trace:
+[19-Apr-2017 15:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:12:26 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:27:58 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:27:58 UTC] PHP Stack trace:
+[19-Apr-2017 15:27:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:27:58 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:27:58 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:27:58 UTC] PHP Stack trace:
+[19-Apr-2017 15:27:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:27:58 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:29:06 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:29:06 UTC] PHP Stack trace:
+[19-Apr-2017 15:29:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:29:06 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:29:06 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:29:06 UTC] PHP Stack trace:
+[19-Apr-2017 15:29:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:29:06 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:33:41 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:33:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:33:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:33:41 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:33:41 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:33:41 UTC] PHP Stack trace:
+[19-Apr-2017 15:33:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:33:41 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:37:39 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:37:39 UTC] PHP Stack trace:
+[19-Apr-2017 15:37:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:37:39 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:37:39 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:37:39 UTC] PHP Stack trace:
+[19-Apr-2017 15:37:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:37:39 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:38:39 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:38:39 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:39 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:38:39 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:38:39 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:39 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:38:53 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:38:53 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:53 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:38:53 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:38:53 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:53 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:38:57 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:38:57 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:57 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:38:57 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:38:57 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:57 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:38:57 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:38:57 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:57 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:38:57 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:38:57 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:57 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:38:58 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:38:58 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:58 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:38:58 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:38:58 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:58 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:38:58 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:38:58 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:58 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:38:58 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:38:58 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:58 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:38:58 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:38:58 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:58 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:38:58 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:38:58 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:58 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:38:59 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:38:59 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:59 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:38:59 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:38:59 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:59 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:38:59 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:38:59 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:59 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:38:59 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:38:59 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:59 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:38:59 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:38:59 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:59 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:38:59 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:38:59 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:59 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:38:59 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:38:59 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:59 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:38:59 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:38:59 UTC] PHP Stack trace:
+[19-Apr-2017 15:38:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:38:59 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:39:07 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:39:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:39:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:39:07 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:39:07 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:39:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:39:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:39:07 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:39:07 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:39:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:39:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:39:07 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:39:07 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:39:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:39:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:39:07 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:39:07 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:39:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:39:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:39:07 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:39:07 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:39:07 UTC] PHP Stack trace:
+[19-Apr-2017 15:39:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:39:07 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:39:08 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:39:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:39:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:39:08 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:39:08 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:39:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:39:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:39:08 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:39:08 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:39:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:39:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:39:08 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:39:08 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:39:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:39:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:39:08 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
+[19-Apr-2017 15:39:08 UTC] PHP Warning:  mysqli_stmt_bind_param() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 8
+[19-Apr-2017 15:39:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:39:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:39:08 UTC] PHP   2. mysqli_stmt_bind_param() /home/ubuntu/workspace/app/survey.php:8
+[19-Apr-2017 15:39:08 UTC] PHP Warning:  mysqli_stmt_execute() expects parameter 1 to be mysqli_stmt, boolean given in /home/ubuntu/workspace/app/survey.php on line 9
+[19-Apr-2017 15:39:08 UTC] PHP Stack trace:
+[19-Apr-2017 15:39:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/survey.php:0
+[19-Apr-2017 15:39:08 UTC] PHP   2. mysqli_stmt_execute() /home/ubuntu/workspace/app/survey.php:9
